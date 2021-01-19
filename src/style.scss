@@ -1,0 +1,35 @@
+.text-element {
+    text-align: right;
+    margin: 1rem 0;
+    .block-element {
+        font-size: 3rem;
+        line-height: 1em;
+        &:before,
+        &:after {
+            content: '"';
+        }
+    }
+    span {
+        font-family: Arial, serif;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+}
+
+.parent>.enfant {
+    columns: 1;
+}
+
+.parent .enfant {
+    columns: 1;
+}
+
+.block-element {
+    font-size: 3rem;
+    line-height: 1em;
+}
+
+.block-element:before,
+.block-element:after {
+    content: '"';
+}
