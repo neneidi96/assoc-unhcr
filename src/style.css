@@ -1,0 +1,15 @@
+html {
+    font-size: 20px;
+}
+
+.text-info {
+    color: #1E90FF !important;
+}
+
+.bg-info {
+    background-color: #1E90FF !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1E90FF;
+}
