@@ -13,3 +13,7 @@ html {
 .navbar-light .navbar-nav .nav-link {
     color: #1E90FF;
 }
+
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 3px solid #1E90FF;
+}
